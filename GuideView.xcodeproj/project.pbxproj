@@ -15,6 +15,16 @@
 		D71DB9D61D688093008F7310 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71DB9D41D688093008F7310 /* LaunchScreen.storyboard */; };
 		D71DB9E11D688093008F7310 /* GuideViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D71DB9E01D688093008F7310 /* GuideViewTests.m */; };
 		D71DB9EC1D688093008F7310 /* GuideViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D71DB9EB1D688093008F7310 /* GuideViewUITests.m */; };
+		D71DBA011D6880BF008F7310 /* experienceImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D71DB9FA1D6880BF008F7310 /* experienceImage@2x.png */; };
+		D71DBA021D6880BF008F7310 /* experienceImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D71DB9FB1D6880BF008F7310 /* experienceImage@3x.png */; };
+		D71DBA031D6880BF008F7310 /* GuideViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D71DB9FE1D6880BF008F7310 /* GuideViewCell.m */; };
+		D71DBA041D6880BF008F7310 /* GuideViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D71DBA001D6880BF008F7310 /* GuideViewManager.m */; };
+		D71DBA231D68848D008F7310 /* guidece_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D71DBA1D1D68848D008F7310 /* guidece_1@2x.png */; };
+		D71DBA241D68848D008F7310 /* guidece_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D71DBA1E1D68848D008F7310 /* guidece_1@3x.png */; };
+		D71DBA251D68848D008F7310 /* guidece_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D71DBA1F1D68848D008F7310 /* guidece_2@2x.png */; };
+		D71DBA261D68848D008F7310 /* guidece_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D71DBA201D68848D008F7310 /* guidece_2@3x.png */; };
+		D71DBA271D68848D008F7310 /* guidece_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D71DBA211D68848D008F7310 /* guidece_3@2x.png */; };
+		D71DBA281D68848D008F7310 /* guidece_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D71DBA221D68848D008F7310 /* guidece_3@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,19 @@
 		D71DB9E71D688093008F7310 /* GuideViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuideViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71DB9EB1D688093008F7310 /* GuideViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuideViewUITests.m; sourceTree = "<group>"; };
 		D71DB9ED1D688093008F7310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D71DB9FA1D6880BF008F7310 /* experienceImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "experienceImage@2x.png"; sourceTree = "<group>"; };
+		D71DB9FB1D6880BF008F7310 /* experienceImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "experienceImage@3x.png"; sourceTree = "<group>"; };
+		D71DB9FC1D6880BF008F7310 /* GuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideView.h; sourceTree = "<group>"; };
+		D71DB9FD1D6880BF008F7310 /* GuideViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewCell.h; sourceTree = "<group>"; };
+		D71DB9FE1D6880BF008F7310 /* GuideViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewCell.m; sourceTree = "<group>"; };
+		D71DB9FF1D6880BF008F7310 /* GuideViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewManager.h; sourceTree = "<group>"; };
+		D71DBA001D6880BF008F7310 /* GuideViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewManager.m; sourceTree = "<group>"; };
+		D71DBA1D1D68848D008F7310 /* guidece_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guidece_1@2x.png"; sourceTree = "<group>"; };
+		D71DBA1E1D68848D008F7310 /* guidece_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guidece_1@3x.png"; sourceTree = "<group>"; };
+		D71DBA1F1D68848D008F7310 /* guidece_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guidece_2@2x.png"; sourceTree = "<group>"; };
+		D71DBA201D68848D008F7310 /* guidece_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guidece_2@3x.png"; sourceTree = "<group>"; };
+		D71DBA211D68848D008F7310 /* guidece_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guidece_3@2x.png"; sourceTree = "<group>"; };
+		D71DBA221D68848D008F7310 /* guidece_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guidece_3@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +124,7 @@
 		D71DB9C51D688093008F7310 /* GuideView */ = {
 			isa = PBXGroup;
 			children = (
+				D71DB9F91D6880BF008F7310 /* JNGuideView */,
 				D71DB9C91D688093008F7310 /* AppDelegate.h */,
 				D71DB9CA1D688093008F7310 /* AppDelegate.m */,
 				D71DB9CC1D688093008F7310 /* ViewController.h */,
@@ -138,6 +162,26 @@
 				D71DB9ED1D688093008F7310 /* Info.plist */,
 			);
 			path = GuideViewUITests;
+			sourceTree = "<group>";
+		};
+		D71DB9F91D6880BF008F7310 /* JNGuideView */ = {
+			isa = PBXGroup;
+			children = (
+				D71DBA1D1D68848D008F7310 /* guidece_1@2x.png */,
+				D71DBA1E1D68848D008F7310 /* guidece_1@3x.png */,
+				D71DBA1F1D68848D008F7310 /* guidece_2@2x.png */,
+				D71DBA201D68848D008F7310 /* guidece_2@3x.png */,
+				D71DBA211D68848D008F7310 /* guidece_3@2x.png */,
+				D71DBA221D68848D008F7310 /* guidece_3@3x.png */,
+				D71DB9FA1D6880BF008F7310 /* experienceImage@2x.png */,
+				D71DB9FB1D6880BF008F7310 /* experienceImage@3x.png */,
+				D71DB9FC1D6880BF008F7310 /* GuideView.h */,
+				D71DB9FD1D6880BF008F7310 /* GuideViewCell.h */,
+				D71DB9FE1D6880BF008F7310 /* GuideViewCell.m */,
+				D71DB9FF1D6880BF008F7310 /* GuideViewManager.h */,
+				D71DBA001D6880BF008F7310 /* GuideViewManager.m */,
+			);
+			path = JNGuideView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +251,7 @@
 				TargetAttributes = {
 					D71DB9C21D688093008F7310 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9T6M24N5BR;
 					};
 					D71DB9DB1D688093008F7310 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -245,7 +290,15 @@
 			files = (
 				D71DB9D61D688093008F7310 /* LaunchScreen.storyboard in Resources */,
 				D71DB9D31D688093008F7310 /* Assets.xcassets in Resources */,
+				D71DBA011D6880BF008F7310 /* experienceImage@2x.png in Resources */,
 				D71DB9D11D688093008F7310 /* Main.storyboard in Resources */,
+				D71DBA251D68848D008F7310 /* guidece_2@2x.png in Resources */,
+				D71DBA281D68848D008F7310 /* guidece_3@3x.png in Resources */,
+				D71DBA271D68848D008F7310 /* guidece_3@2x.png in Resources */,
+				D71DBA241D68848D008F7310 /* guidece_1@3x.png in Resources */,
+				D71DBA021D6880BF008F7310 /* experienceImage@3x.png in Resources */,
+				D71DBA261D68848D008F7310 /* guidece_2@3x.png in Resources */,
+				D71DBA231D68848D008F7310 /* guidece_1@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +326,8 @@
 				D71DB9CE1D688093008F7310 /* ViewController.m in Sources */,
 				D71DB9CB1D688093008F7310 /* AppDelegate.m in Sources */,
 				D71DB9C81D688093008F7310 /* main.m in Sources */,
+				D71DBA041D6880BF008F7310 /* GuideViewManager.m in Sources */,
+				D71DBA031D6880BF008F7310 /* GuideViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,10 +470,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GuideView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JnKindle.GuideView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +484,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GuideView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JnKindle.GuideView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

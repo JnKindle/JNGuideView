@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "GuideView.h"
+
+
 
 @interface AppDelegate ()
 
@@ -15,8 +19,25 @@
 @implementation AppDelegate
 
 
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    [NSThread sleepForTimeInterval:1.0];
+    
+    /*初始化视图*/
+    CGRect frame = [[UIScreen mainScreen] bounds];
+    self.window = [[UIWindow alloc] initWithFrame:frame];
+    
+    self.window.backgroundColor = [UIColor blackColor];
+    
+    ViewController *viewVC = [[ViewController alloc] init];
+    self.window.rootViewController = viewVC;
+    //active
+    [self.window makeKeyAndVisible];
+    
+    [[GuideViewManager sharedInstance] showGuideViewWithGuideImages:@[@"guidece_1",@"guidece_2",@"guidece_3"] withSkipButtonTitle:@"跳过 >>" withExperienceButtonImage:[UIImage imageNamed:@"experienceImage"]];
+    
     return YES;
 }
 
